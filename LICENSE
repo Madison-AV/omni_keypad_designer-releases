@@ -191,7 +191,7 @@ Supported Products: Harman BSS OMNI dynamic keypads, firmware 1.1.x
 
 Release status: Pre-release. Keypad deployment is experimental.
 
-Data sent: At startup, the Software checks in with Madison's licensing server to check its licence and look for updates. It sends the application name and version, the computer's hardware ID (SMBIOS UUID), and the serial number, if one has been entered.
+Data sent: Each time it starts, the Software downloads a small version file from GitHub Pages (github.io), operated by GitHub, Inc., to check whether a newer version is available. The request carries no serial number, machine identifier or other information about your computer or projects. Like any web request, it gives GitHub your IP address and basic request details, which GitHub handles under its own privacy statement.
 
 Third-party material: THIRD-PARTY-NOTICES.txt, installed next to the app
 
